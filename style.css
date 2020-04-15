@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 0;
+}
+
+body h1 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*FLOAT UZDUOTIS */
+
+.fix {
+    clear: both;
+}
+
+.wrapper {
+    width: 40%;
+    margin: 0px auto;
+}
+
+.wrapper p {
+    font-size: 15px;
+}
+
+.one {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.one img {
+    width: 200px;
+    float: left;
+    margin: 0px 35px 15px 0px;
+}
+
+.two {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.two img {
+    width: 200px;
+    margin: 0px 0px 15px 35px;
+    float: right;
+}
+
+.three {
+    display: inline-block;
+    width: 48%;
+    height: auto;
+    float: left;
+}
+
+.four {
+    display: inline-block;
+    width: 48%;
+    float: right;
+}
+
+.five {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+/*POSITION UZDUOTIS */
+
+/*fixed h1*/
+
+.header {
+    position: fixed;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+/*first wrapper POSITION */
+
+.pWrapper {
+    width: 60%;
+    height: 800px;
+    background: #FF6347;
+    margin: 3% auto;
+    padding: 2px;
+    position: relative;
+}
+
+.cube {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+}
+
+.box1 {
+    display: inline-block;
+}
+
+.box2 {
+    position: absolute;
+    top: 2px;
+    left: 943px;
+
+}
+
+.box3 {
+    position: absolute;
+    top: 602px;
+    left: 2px;
+}
+
+.box4 {
+    position: absolute;
+    top: 602px;
+    left: 943px;
+
+}
+
+.box11 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -100%);
+}
+
+.box22 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -100%);
+}
+
+.box33 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, 0%);
+}
+
+.box44 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+/*DISPLAY UZDUOTIS */
+
+section {
+    width: 40%;
+    height: auto;
+    margin: 50px auto;
+    text-align: justify;
+}
+
+.color1 {
+    display: inline;
+    color: #ff654b;
+}
+
+.color2 {
+    display: inline;
+    color: #328f8d;
+}
+
+.color3 {
+    display: inline;
+    color: #259eff;
+}
+
+.rect1 {
+    display: inline-block;
+    width: 50%;
+    height: 240px;
+    background: #FF6347;
+}
+
+.rect2 {
+    display: inline-block;
+    width: 50%;
+    height: 240px;
+    background: #1E90FF;
+}
+
+section a {
+    position: fixed;
+    top: 2%;
+    left: 90%;
+    font-size: 50px;
+    text-decoration: none; 
+}
+
+section a:hover {
+    color: red;
+    text-decoration: underline;
+    
+}
+
+/*NAV */
+
+
+nav a {
+    font-size: 16px;
+    padding: 5px;
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+nav ol {
+    float: right;
+    margin: 20px;
+}
+
+nav li {
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
